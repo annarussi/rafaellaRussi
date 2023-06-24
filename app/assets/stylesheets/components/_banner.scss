@@ -1,0 +1,14 @@
+.banner {
+  background-image: url('assets/banner_rafaellarussi.png');
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+@media(max-width: 480px) {
+  .banner {
+    height: 30vh;
+  }
+}
