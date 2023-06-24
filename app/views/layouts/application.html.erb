@@ -11,6 +11,39 @@
   </head>
 
   <body>
+
+    <%# --------------------------------- NAVBAR --------------------------------- %>
+
+    <div class="navbar sticky-top bg-light navbar-expand-sm navbar-light navbar-lewagon shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <%= image_tag("logo_rafaellarussi.png") %>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item mx-2 active">
+              <%# ADD LINK_TO WITH THE RIGHT PATH WHEN SAÚDE DA CRIANÇA VIEW IS DONE %>
+              <a class="nav-link" href="#">Saúde da Criança</a>
+            </li>
+            <li class="nav-item mx-2">
+            <%# ADD LINK_TO WITH THE RIGHT PATH WHEN SAÚDE DA MULHER VIEW IS DONE %>
+              <a class="nav-link" href="#">Saúde da Mulher</a>
+            </li>
+            <li class="nav-item mx-3">
+            <%# ADD LINK_TO WITH THE RIGHT PATH WHEN CONSULTÓRIO VIEW IS DONE %>
+              <a class="nav-link" href="#">Consultórios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <%# --------------------------------- END OF NAVBAR --------------------------------- %>
+
     <%= yield %>
   </body>
 </html>
