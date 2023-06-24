@@ -1,0 +1,35 @@
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+.info-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 480px) {
+  .info-cards {
+    grid-template-columns: 1fr;
+  }
+}
