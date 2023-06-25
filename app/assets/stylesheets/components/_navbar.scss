@@ -9,3 +9,12 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+a {
+  color: #604146;
+  font-family: 'Julius Sans One', sans-serif;
+
+    &:hover {
+      opacity: 0.6;
+    }
+}
